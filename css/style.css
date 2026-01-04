@@ -9701,3 +9701,25 @@ h4, h5, h6 {
   padding: 0;
   list-style-type: none;
 }
+
+/* ===== Social Icons Hover Effect ===== */
+.sidebar-text .fab {
+    color: #dc3545; /* Bootstrap red */
+    transition: all 0.3s ease;
+}
+
+.sidebar-text .fab:hover {
+    transform: scale(1.2);
+    color: #a71d2a; /* Darker red */
+}
+
+/* ===== Download CV Button Hover ===== */
+.sidebar-text .btn {
+    transition: all 0.3s ease;
+}
+
+.sidebar-text .btn:hover {
+    background-color: #dc3545;
+    color: #fff;
+    transform: translateY(-2px);
+}
