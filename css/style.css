@@ -9723,3 +9723,66 @@ h4, h5, h6 {
     color: #fff;
     transform: translateY(-2px);
 }
+/* ================================
+   PROJECTS SECTION CSS
+   White card + red border → red on hover
+   ================================ */
+
+/* Project card base */
+.portfolio-item .position-relative {
+    min-height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #ffffff;
+    outline: 2px solid #ff0000;     /* PURE RED – ALWAYS visible */
+    outline-offset: -2px;           /* Aligns like a border */
+    border-radius: 8px;
+    padding: 1.5rem;
+    transition: all 0.35s ease;
+}
+
+
+/* Default text colors */
+.portfolio-item h5 {
+    color: #dc3545;                     /* RED heading */
+    font-weight: 600;
+}
+
+.portfolio-item p,
+.portfolio-item small {
+    color: #495057;                     /* Dark text */
+}
+
+/* Hover state → RED background */
+.portfolio-item:hover .position-relative {
+    background-color: #dc3545;
+    border-color: #dc3545;
+    transform: translateY(-6px);
+    box-shadow: 0 12px 28px rgba(220, 53, 69, 0.35);
+}
+
+/* Text colors on hover */
+.portfolio-item:hover h5,
+.portfolio-item:hover p,
+.portfolio-item:hover small {
+    color: #ffffff;                     /* WHITE text */
+}
+
+/* Active filter button */
+#portfolio-flters li.active {
+    background-color: #dc3545;
+    color: #ffffff;
+}
+
+/* Project card link fix */
+.project-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+.project-link:hover {
+    text-decoration: none;
+    color: inherit;
+}
