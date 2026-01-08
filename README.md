@@ -5,5 +5,5 @@ The projects focus on data cleaning, analysis, visualization, and business insig
 
 It highlights my analytical approach, KPI development, and ability to turn raw data into actionable insights.
 
-📍 Skills: Excel | SQL | Power BI | Python
+📍 Skills: Excel | SQL | Power BI | Python<BR>
 📌 Role: Aspiring Data Analyst / Business Data Analyst
